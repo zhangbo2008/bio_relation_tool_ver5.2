@@ -7,6 +7,7 @@
 增加保存ner文件.现在按保存文件.bio和txt按钮之后生成output.ner文件. 注意里面的区间是左右都闭的意思.
 举例子:入你要处  per  1  4   表示的是这一行文本入你要处是per.他所在行的第1个到第四个的闭区间这4个字符对应的
 是入你要处这4个字.
+#输出样式: ner1_text  ner1_label ner1_locationhead  ner1_locationtail ner2_text ner2_label ner2_locationhead ner2tail.....########正文的该行.
 
 
 #5.1版本.
