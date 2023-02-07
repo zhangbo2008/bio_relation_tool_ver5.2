@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2c658a5-b92a-4f39-9868-d73fecc1f563" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/备份真实数据/output.bio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备份真实数据/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/666触发菜单版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/666触发菜单版本.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.bio" beforeDir="false" afterPath="$PROJECT_DIR$/output.bio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24JlVkxw65JBejePqP8X8q6tKO9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/备份真实数据" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\做一个bio标注工具第四版\备份真实数据" />
+      <recent name="D:\做一个bio标注工具第四版" />
+      <recent name="D:\做一个bio标注工具" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.666触发菜单版本 (1)">
+    <configuration name="32423" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="做一个bio标注工具" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32423.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="342342342" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="做一个bio标注工具" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/342342342.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="666触发菜单版本 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="做一个bio标注工具" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/666触发菜单版本.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="888" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="做一个bio标注工具" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/888.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="999999999" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="做一个bio标注工具" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/999999999.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.888" />
+      <item itemvalue="Python.666触发菜单版本 (1)" />
+      <item itemvalue="Python.342342342" />
+      <item itemvalue="Python.999999999" />
+      <item itemvalue="Python.32423" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.666触发菜单版本 (1)" />
+        <item itemvalue="Python.32423" />
+        <item itemvalue="Python.999999999" />
+        <item itemvalue="Python.888" />
+        <item itemvalue="Python.342342342" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2c658a5-b92a-4f39-9868-d73fecc1f563" name="Default Changelist" comment="" />
+      <created>1643356595343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643356595343</updated>
+      <workItem from="1643356597876" duration="1789000" />
+      <workItem from="1643381121851" duration="19067000" />
+      <workItem from="1643609153104" duration="33000" />
+      <workItem from="1644290045560" duration="3698000" />
+      <workItem from="1675240760402" duration="10910000" />
+      <workItem from="1675251840460" duration="4408000" />
+      <workItem from="1675256305015" duration="1695000" />
+      <workItem from="1675297579786" duration="11000" />
+      <workItem from="1675308999453" duration="13498000" />
+      <workItem from="1675419853708" duration="5828000" />
+      <workItem from="1675648439106" duration="12676000" />
+      <workItem from="1675682264081" duration="19700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="398" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1675740548585">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="398" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1675740548585" />
+    <state x="512" y="94" key="#xdebugger.evaluate" timestamp="1675737823425">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="512" y="94" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1675737823425" />
+    <state width="1123" height="438" key="DebuggerActiveHint" timestamp="1675740017491">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1123" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1675740017491" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1675740795513">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1675740795513" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1675740795513">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1675740795513" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1675740795513">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1675740795513" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1675471191514" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1675740795513">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1675740795513" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
+    <state width="1237" height="188" key="GridCell.Tab.1.bottom" timestamp="1675740557885">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="188" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1675740557885" />
+    <state width="1237" height="163" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1675471191531" />
+    <state width="1237" height="188" key="GridCell.Tab.1.center" timestamp="1675740557885">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="188" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1675740557885" />
+    <state width="1237" height="163" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1675471191531" />
+    <state width="1237" height="188" key="GridCell.Tab.1.left" timestamp="1675740557885">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="188" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1675740557885" />
+    <state width="1237" height="163" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1675471191531" />
+    <state width="1237" height="188" key="GridCell.Tab.1.right" timestamp="1675740557885">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="188" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1675740557885" />
+    <state width="1237" height="163" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1675471191531" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1675242783155">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1675242783155" />
+    <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1675689141209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1675689141209" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1675324570524">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1675324570524" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../untitled7/FileSaver.js</url>
+          <line>33</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../untitled7/1.html</url>
+          <line>39</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../untitled7/1.html</url>
+          <line>42</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../untitled7/FileSaver.js</url>
+          <line>75</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1.py</url>
+          <line>242</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/666触发菜单版本.py</url>
+          <line>799</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/666触发菜单版本.py</url>
+          <line>444</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="result.split('\n')" />
+        <watch expression="[&quot;B-biaoqian&quot;+str(dex)]+[&quot;I-biaoqian&quot;+str(dex)]*(a22-a11-1)+[&quot;E-biaoqian&quot;+str(dex)]" />
+        <watch expression="[&quot;B-biaoqian&quot;+str(dex)]+[&quot;I-biaoqian&quot;+str(dex)]*(a22-a12-1)+[&quot;E-biaoqian&quot;+str(dex)]" />
+        <watch expression="tmp[i]" />
+        <watch expression="kmp_for_array.kmp(tmp[i],wenben,return_all=True)" />
+        <watch expression="out.append(kmp_for_array.kmp(tmp[i],wenben,return_all=True))" />
+        <watch expression="[(f'{i+1}.{j}',f'{i+1}.{j+len(wenben)}') for j in kkk]" />
+        <watch expression="out" />
+        <watch expression="weizhi[0]" />
+        <watch expression="weizhi[0][1]" />
+        <watch expression="j" />
+        <watch expression="tmp3" />
+        <watch expression="tmp3[i][j]" />
+        <watch expression="str(i+1)+'.'+str(j+1),str(i+1)+'.'+str(j+2),aaa" />
+        <watch expression="text.get('1.0',&quot;end&quot;)" />
+        <watch expression="neirong" />
+        <watch expression="aaa" language="Python" />
+        <watch expression="outfor_rel.keys()" />
+        <watch expression="'  '.join(outfor_rel[i][0])+'######'+outfor_rel[i][1]" />
+        <watch expression="outfor_rel[i]" />
+        <watch expression="'  '.join(outfor_rel[i][0])" />
+        <watch expression="outfor_rel[i][0]" />
+        <watch expression="outfor_rel[i][1]" />
+        <watch expression="len(outfor_rel[i])" />
+        <watch expression="outfor_rel[i][j]" />
+        <watch expression="sepp+sepp.join(outfor_rel[i][j])" />
+      </configuration>
+      <configuration name="JavascriptDebugType">
+        <watch expression="typeof window === 'object' &amp;&amp; window.window === window&#10;  ? window : typeof self === 'object' &amp;&amp; self.self === self&#10;  ? self : typeof global === 'object' &amp;&amp; global.global === global&#10;  ? global&#10;  : this" language="JavaScript" />
+        <watch expression=" window === 'object' " />
+        <watch expression="window.window === window" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bio$kmp_for_array.coverage" NAME="kmp_for_array Coverage Results" MODIFIED="1643445840152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$999999999.coverage" NAME="999999999 Coverage Results" MODIFIED="1675659534119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$777.coverage" NAME="777 Coverage Results" MODIFIED="1675321848265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$2.coverage" NAME="2 Coverage Results" MODIFIED="1675246167958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$888.coverage" NAME="888 Coverage Results" MODIFIED="1675650007765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$3.coverage" NAME="3 Coverage Results" MODIFIED="1675257672271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$666__1_.coverage" NAME="666触发菜单版本 (1) Coverage Results" MODIFIED="1675740692119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$666.coverage" NAME="666触发菜单版本 Coverage Results" MODIFIED="1675421036001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$1.coverage" NAME="666触发菜单版本 Coverage Results" MODIFIED="1675331172730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$32423.coverage" NAME="32423 Coverage Results" MODIFIED="1675688472839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$342342342.coverage" NAME="342342342 Coverage Results" MODIFIED="1675648939187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
