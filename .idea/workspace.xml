@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c658a5-b92a-4f39-9868-d73fecc1f563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/备份真实数据/output.bio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/备份真实数据/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/666触发菜单版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/666触发菜单版本.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.bio" beforeDir="false" afterPath="$PROJECT_DIR$/output.bio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +194,7 @@
       <workItem from="1675308999453" duration="13498000" />
       <workItem from="1675419853708" duration="5828000" />
       <workItem from="1675648439106" duration="12676000" />
-      <workItem from="1675682264081" duration="19700000" />
+      <workItem from="1675682264081" duration="19854000" />
     </task>
     <servers />
   </component>
