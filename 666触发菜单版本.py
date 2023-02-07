@@ -458,7 +458,7 @@ def save():
                 for jj in range(len(outfor_rel[i])-1):
                     outlist[i]+=sepp+sepp.join(outfor_rel[i][jj])
                 outlist[i]+='######'+outfor_rel[i][-1]
-                outlist[i]=outlist[i][len(sepp):]
+                outlist[i]=outlist[i][len(sepp):]+'\n'
             print(outlist,22222222222222222222222222222222222222222222)
             with open('output.ner','w',encoding='utf-8') as f:
                 f.writelines(outlist)
