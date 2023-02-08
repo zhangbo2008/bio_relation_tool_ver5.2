@@ -56,7 +56,7 @@ import tkinter
 root = Tk(className='                                                                                                                            信息抽取标注工具(一键生成bioes格式)')
 # frame = Frame (root, relief=RAISED, borderwidth=20)
 root.resizable(True,True)
-text = Text(root, width=125,height=20,font=('宋体',15),wrap = 'word')
+text = Text(root, width=999,height=20,font=('宋体',15),wrap = 'word',background='#C7EDCC')#=======添加了护眼色.
 text.insert('1.0', '贴入你要处理的sdfsadf张某,李某,sdfsdfasfasd王某他们杀人了fas]\n sdfsadf张某,李某,sdfsdfasfasd王某他们杀人了文字 中文 English 都行\n贴入你要处理的文字')# 1.0 第一行0列.
 
 colorlist=[i[0] for i in color_and_biaoqian]
@@ -77,7 +77,7 @@ s2.pack(side = BOTTOM, fill = X)
 
 s2.config(command = text.xview)
 text.config(xscrollcommand=s2.set)
-print( text.get('1.0', 'end'))
+# print( text.get('1.0', 'end'))
 text.pack()
 # frame.pack()
 
@@ -86,18 +86,29 @@ text.pack()
 #第二层是frame 来放按钮的.
 frame = Frame (root, relief=GROOVE, borderwidth=1)
 frame.pack (side=TOP, fill=BOTH, ipadx=5, ipady=5, expand=1)
-
+for i in colorlist:
+    text.tag_config(i, background=i)  # 再为标签进行设置==类似html里面的div 里面class属性.
 def helloCallBack(color):
-   print(1111111111111)
+   # print(1111111111111)
    try:
-       print(SEL_FIRST,SEL_LAST)
-       print(text.index("sel.first"),text.index("sel.last"))
-       text.tag_config(color,  background=color)  # 再为标签进行设置==类似html里面的div 里面class属性.
+       # print(SEL_FIRST,SEL_LAST)
+       # print(text.index("sel.first"),text.index("sel.last"))
+
        #===============注意要先删除其他的标签.
-       for i in colorlist:
-           text.tag_remove( i,text.index("sel.first"), text.index("sel.last"))  # =======变色
+
+
+
+       if 1:
+           for i in colorlist:
+               text.tag_remove( i,text.index("sel.first"), text.index("sel.last"))  # =======变色
        if color !='white':#======white实际上是不进行背景色标注!这样效果最好!!!!!!a trick
             text.tag_add(color, text.index("sel.first"),text.index("sel.last")) #=======变色
+
+
+       if 0:
+           print('=================debug')
+           for i in colorlist:
+               print(i,text.tag_ranges(i))
        # print(text.tag_ranges(color))
 
 
@@ -107,22 +118,21 @@ def helloCallBack(color):
 
 
 def helloCallBack_read_bio(i,j,color):
-   print(1111111111111)
+
    a=i
    b=j
    try:
-       # print(SEL_FIRST,SEL_LAST)
-       # print(text.index("sel.first"),text.index("sel.last"))
+       #这时候clor重置了,所以要重新跑config.
        text.tag_config(color,  background=color)  # 再为标签进行设置==类似html里面的div 里面class属性.
        #===============注意要先删除其他的标签.
        for i in colorlist:
            text.tag_remove( i,a, b)  # =======变色
        if color !='white':#======white实际上是不进行背景色标注!这样效果最好!!!!!!a trick
             text.tag_add(color, a,b) #=======变色
-       # print(text.tag_ranges(color))
 
 
-       # print(11111111111)
+
+
    except:
        pass
 
@@ -130,17 +140,16 @@ import kmp_for_array
 
 def helloCallBack_quanbiaozhu(color):
 
-   print(1111111111111)
+
    if 1:
-       print(SEL_FIRST,SEL_LAST)
-       print(text.index("sel.first"),text.index("sel.last"))
-       text.tag_config(color,  background=color)  # 再为标签进行设置
+
+       # text.tag_config(color,  background=color)  # 再为标签进行设置
        wenben=text.get(text.index("sel.first"),text.index("sel.last"))
-       print("获取到的文本是",wenben)
+
        if 1:
           #=============调用python的搜索
           all_text=text.get('1.0',END)
-          print(all_text)
+
           tmp= all_text.split('\n')
           out2=[]
           for i in range(len(tmp)):#=========这里面需要字符串的kmp算法
@@ -154,7 +163,7 @@ def helloCallBack_quanbiaozhu(color):
                         last_tail=j+len(wenben)
 
 
-              print(out2,999999999999999999)
+
 
        for weizhi in out2:
        #===============注意要先删除其他的标签.
@@ -164,30 +173,59 @@ def helloCallBack_quanbiaozhu(color):
                 text.tag_add(color,weizhi[0], weizhi[1]) #=======变色
 
            # print(text.tag_ranges(color))
-import  re
+# import  re
 
+import time
+import  re
 def zhengzehelloCallBack_quanbiaozhu(color):
+
+
+            #======================2023-02-08,19点57出尝试用编辑器自己的search函数来看看速度.现在看没屁用.他不支持正则.
+
+
+
+
+
+
 
            a=e.get()
 
-           print(a,3333333333333333333333333333333333333333)
-           print(1111111111111)
-           aaa=text.get('1.0',"end")
-           print(text.get('1.0',"end"),324234234234324234234234234324234233)
-           tmp=re.findall(a,aaa) ########==========正则代码.
+
+           zhengze=re.compile(a)
+           aaa=text.get('1.0',"end").split('\n')
+           # tmp=re.compile(a).findall(aaa)
+           tmp=[]
+           for i in aaa:
+               tmp+=zhengze.findall(i)
+           # tmp=re.findall(a,aaa) ########==========正则代码.
+
+
+
+
+
+
            tmp=set(tmp)
            if 1:
                for i1 in tmp:
                    #找到每一个索引:
-                       # print(SEL_FIRST, SEL_LAST)
-                       # print(text.index("sel.first"), text.index("sel.last"))
-                       text.tag_config(color, background=color)  # 再为标签进行设置
+
+                       # a=time.time()
+                       # text.tag_config(color, background=color)  # 再为标签进行设置
                        wenben =i1
-                       print("获取到的文本是", i1)
+
+
+#===============改用https://github.com/Kashian/flashtext 这个库包. 比kmp快朵了!!!!!!!!!!!!
+
+
+
+
+
+
                        if 1:
                            # =============调用python的搜索
+
                            all_text = text.get('1.0', END)
-                           print(all_text)
+
                            tmp = all_text.split('\n')
                            out2 = []
                            for i in range(len(tmp)):  # =========这里面需要字符串的kmp算法
@@ -200,16 +238,22 @@ def zhengzehelloCallBack_quanbiaozhu(color):
                                            out2.append([f'{i + 1}.{j}', f'{i + 1}.{j + len(wenben)}'])
                                            last_tail = j + len(wenben)
 
-                               print(out2, 999999999999999999)
 
+
+
+
+
+                       # print('kmp:',time.time()-a)
+
+                       # a = time.time()
                        for weizhi in out2:
                            # ===============注意要先删除其他的标签.
                            for i in colorlist:
                                text.tag_remove(i, weizhi[0], weizhi[1])  # =======变色
                            if color != 'white':  # ======white实际上是不进行背景色标注!这样效果最好!!!!!!a trick
-                               print(color, weizhi[0], weizhi[1],'fjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj')
-                               text.tag_add(color, weizhi[0], weizhi[1])  # =======变色
 
+                               text.tag_add(color, weizhi[0], weizhi[1])  # =======变色
+                       # print('tuse:', time.time() - a)
        # print(11111111111)
 
 #https://blog.csdn.net/wjciayf/article/details/79261005  颜色表
@@ -226,8 +270,7 @@ save_all_button=[]
 paddd=12
 def setup_button():
 
-    print('进行重置按钮')
-    print(colorlist,99999999999999999999999999999999999999999)
+
     # b=tkinter.Button(frame,bg= 'white',text ="标注为空", command = lambda :helloCallBack('white'))
     fun4('white')
     # b.grid(row=0,column=1,padx=10)
@@ -358,12 +401,12 @@ def save():
         save_triple=[]
         try:
             moshi=cmb.get()
-            # print(moshi,3333333333333333333333333333333333333333333333333333)
+
             if 'es' in moshi:
                 tool_type='bioes'
             else:
                 tool_type = 'bio'
-            # print("获取文本")
+
             result = text.get("1.0", "end")  # 获取文本输入框的内容
 
 
@@ -380,7 +423,7 @@ def save():
         if 1:
             # for i in colorlist:
             #     aaa=text.tag_ranges(i)###=得到的aaa标里面每2个表示开头结尾索引.
-            #     # print(aaa,i)
+
             #=======下面都是简单的字符串处理而已
             yuanwen=result.split('\n')
             jieguo=[list('O'*len(i)) for i in yuanwen]
@@ -401,7 +444,7 @@ def save():
                         # ===============这里来处理每个颜色保存到rel里面.
                         # (<textindex object: '1.4'>, <textindex object: '1.9'>) =aaa
                         save_triple.append([yuanwen[a11-1][a12:a22],a11-1,str(labellist[dex]),a12,a22-1])
-                        print(1)
+
                         pass
 
 
@@ -414,7 +457,7 @@ def save():
                     if tool_type!='bio':
                         if a11!=a21:
                             pass
-                            # print("bugle !!!!","索引在",a11,a12,a21,a22)
+
                         else:
                             if a22-a12==1:#标注S!
                                 jieguo[a11-1][a12]="S-"+str(labellist[dex])
@@ -423,15 +466,15 @@ def save():
                     if tool_type=='bio':
                         if a11 != a21:
                             pass
-                            # print("bugle !!!!", "索引在", a11, a12, a21, a22)
+
                         else:
 
                                 jieguo[a11 - 1][a12:a22] = ["B-" + str(labellist[dex])] + ["I-" + str(labellist[dex])] * (
                                             a22 - a12 - 1)
 
-            # print(jieguo,111111111111111111111111111111111111111111111111111111)
+
             jieguo=[' '.join(i)+'\n' for i in jieguo]
-            # print(jieguo)
+
             with open('output.bio','w') as f:
                 f.writelines(jieguo)
             zhengchagn=1
@@ -442,7 +485,7 @@ def save():
             #输出样式: ner1_text  ner1_label ner1_locationhead  ner1_locationtail ner2_text ner2_label ner2_locationhead ner2tail.....########正文的该行.
 
             #==================处理:
-            # print(save_triple,999999999999999999999999999999999999999999999999)
+
 
 
             #=============非锁紧版本
@@ -455,7 +498,7 @@ def save():
                     outfor_rel[i[1]].append([i[0],i[2],str(i[3]),str(i[4])])
                 for i in outfor_rel:
                     outfor_rel[i].append(yuanwen[i])
-                # print(outfor_rel,111111111111111111111111111111111111111111111111111111111111111111111)
+
                 outlist=['']*(max(outfor_rel.keys())+1)
                 sepp='  '
                 for i in sorted(outfor_rel.keys()):
@@ -463,7 +506,7 @@ def save():
                         outlist[i]+=sepp+sepp.join(outfor_rel[i][jj])
                     outlist[i]+='######'+outfor_rel[i][-1]
                     outlist[i]=str(i)+sepp+outlist[i][len(sepp):]+'\n'
-                print(outlist,22222222222222222222222222222222222222222222)
+
                 with open('output.ner','w',encoding='utf-8') as f:
                     f.writelines(outlist)
 
@@ -475,7 +518,7 @@ def save():
                     outfor_rel[i[1]].append([i[0], i[2], str(i[3]), str(i[4])])
                 for i in outfor_rel:
                     outfor_rel[i].append(yuanwen[i])
-                # print(outfor_rel,111111111111111111111111111111111111111111111111111111111111111111111)
+
                 outlist = [''] * (max(outfor_rel.keys()) + 1)
                 sepp = '    '
                 suojin='\\'
@@ -484,7 +527,7 @@ def save():
                         outlist[i] += sepp + suojin.join(outfor_rel[i][jj])
                     outlist[i] += '######' + outfor_rel[i][-1]
                     outlist[i] = str(i) + sepp + outlist[i][len(sepp):] + '\n'
-                print(outlist, 22222222222222222222222222222222222222222222)
+
                 with open('output.ner', 'w', encoding='utf-8') as f:
                     f.writelines(outlist)
 
@@ -569,7 +612,7 @@ def chognzhi():
         with open('output.bio' ) as f:
             tmp=f.readlines()
         tmp3=tmp
-        # print(tmp)
+
         tmp=' '.join(tmp).replace('\n',' ').split(' ')
         tmp=[i[2:] for i in tmp if '-' in i]
         tmp2=[]
@@ -578,7 +621,7 @@ def chognzhi():
                 tmp2.append(i)
 
         tmp=tmp2
-        # print(tmp,333333333333333333333333333)
+
         #=======进行配色.
 
 
@@ -612,14 +655,11 @@ def chognzhi():
         labellist = [i[1] for i in color_and_biaoqian]
         setup_button()
         #=============下面我们根据bio进行涂色.
-        # print(tmp3,44444444444444)
+
         tmp3=[i1.replace('\n','').split(' ') for i1 in tmp3]
         for i in range(len(tmp3)):
             for j in range(len(tmp3[i])):
-                # print(i,j,343423423423423423423423423423)
-                # print(i)
-                # print(j)
-                # print(tmp3[i][j],333333333333333333333333333333333333333333333333)
+
                 if '-' in tmp3[i][j]:
                     aaa=tmp3[i][j][2:]
                     for jjj in color_and_biaoqian:
@@ -702,13 +742,7 @@ b.grid(row=1,column=0,padx=10)
 
 
 # text.tag_add('highlightline', '5.0', '6.0')
-#
-# text.tag_configure('highlightline', background='yellow', font='TkFixedFont', relief='raised')
-# text.insert('end','ffffffffff','highlightline')
-# try:
-#     print(text.get(SEL_FIRST,SEL_LAST))
-# except:
-#     pass
+
 
 
 
@@ -728,8 +762,6 @@ e=E1
 #按扭调用的函数，
 def reg():
     a = e.get()
-    # print(a,333333333333333333333333333333333333333333333333333333333)
-
 
 
 
@@ -752,7 +784,7 @@ def fun2(event):
 
     #========
     a= text.index(tk.INSERT)
-    # print(a,'??????????????????')
+
 
 
 
@@ -770,9 +802,7 @@ def fun2(event):
 
         global_fuwenben=content
         html_text = []
-        # print(content,9999999999999999999999999999999999999999)
-        # print(str(content),99999999999999999999999999999)
-        # print(eval(str(content)),9999999999999999999999999999)
+
         tmp=eval(str(content))
 
 
@@ -781,7 +811,7 @@ def fun2(event):
         tmp=json.dumps(content,ensure_ascii=True)
         # tmp=tmp.encode('utf-8')
         tttttttt=json.loads(tmp)
-        # print(tttttttt,'解析后的内丰富的发')
+
 
 
         # print(tmp,9999999999999999999999999999999999999999999999999999999999999999999999999999)
@@ -857,7 +887,7 @@ def fun3(event):
             if global_fuwenben[i][0] == 'tagon' and global_fuwenben[i][1] in colorlist:
                 global_fuwenben2[i], global_fuwenben2[i + 1] = global_fuwenben2[i + 1], global_fuwenben2[i]
         global_fuwenben = global_fuwenben2
-        print('debug!!!!!!!!!!!!', global_fuwenben)
+
         a2 = a
 
 
@@ -879,9 +909,9 @@ def fun3(event):
             if 1:
 
                 if i[1] in colorlist and i[0] == 'tagon' or i[0]=='tagoff':  # tuse ==========================注意content标签里面的设置情况, 有的时候你的选择部分on 和off 会不全, 所以我们要2种情况都进行涂色. 虽然会重复凸,但是会保证结果正确!!!!!!!!!
-                    # print('接手333333', i)
+
                     color = i[1]
-                    # print('涂色', color, a, a2)
+
                     text.tag_config(color, background=color)  # 再为标签进行设置==类似html里面的div 里面class属性.
                     # ===============注意要先删除其他的标签.
                     for i in colorlist:
@@ -894,7 +924,7 @@ def fun3(event):
 
         # print('...................',content)
         text.insert(a, neirong)
-    print('当前剪贴板内容',klembord.get_text())
+
     return  'break'     # 这种写法可以阻塞ctrlv 的原始使用.
     #     pass  #如果解析失败说明他是其他数据不是编辑器里面的json.
 
@@ -957,172 +987,20 @@ sep_for_clipborad='================[[[sep]]]=====================' #创建一个
 if 0:
     klembord.set_with_rich_text('plain text', '<i>plain text</i>')
 
-
-
+if 1:
+    def backout():
+        text.edit_undo()
+    def regain():
+        text.edit_redo()
+    # 定义撤销和恢复按钮
+    Button(frame,text = '文本撤销',command = backout).grid(row=3, column=0, sticky="w", padx=10, pady=7)
+    Button(frame,text = '文本恢复',command = regain).grid(row=3, column=0, sticky="e", padx=10, pady=7)
 
 
 
 
 
 root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-colors =#FFB6C1 LightPink 浅粉红
-#FFC0CB Pink 粉红
-#DC143C Crimson 深红/猩红
-#FFF0F5 LavenderBlush 淡紫红
-#DB7093 PaleVioletRed 弱紫罗兰红
-#FF69B4 HotPink 热情的粉红
-#FF1493 DeepPink 深粉红
-#C71585 MediumVioletRed 中紫罗兰红
-#DA70D6 Orchid 暗紫色/兰花紫
-#D8BFD8 Thistle 蓟色
-#DDA0DD Plum 洋李色/李子紫
-#EE82EE Violet 紫罗兰
-#FF00FF Magenta 洋红/玫瑰红
-#FF00FF Fuchsia 紫红/灯笼海棠
-#8B008B DarkMagenta 深洋红
-#800080 Purple 紫色
-#BA55D3 MediumOrchid 中兰花紫
-#9400D3 DarkViolet 暗紫罗兰
-#9932CC DarkOrchid 暗兰花紫
-#4B0082 Indigo 靛青/紫兰色
-#8A2BE2 BlueViolet 蓝紫罗兰
-#9370DB MediumPurple 中紫色
-#7B68EE MediumSlateBlue 中暗蓝色/中板岩蓝
-#6A5ACD SlateBlue 石蓝色/板岩蓝
-#483D8B DarkSlateBlue 暗灰蓝色/暗板岩蓝
-#E6E6FA Lavender 淡紫色/熏衣草淡紫
-#F8F8FF GhostWhite 幽灵白
-#0000FF Blue 纯蓝
-#0000CD MediumBlue 中蓝色
-#191970 MidnightBlue 午夜蓝
-#00008B DarkBlue 暗蓝色
-#000080 Navy 海军蓝
-#4169E1 RoyalBlue 皇家蓝/宝蓝
-#6495ED CornflowerBlue 矢车菊蓝
-#B0C4DE LightSteelBlue 亮钢蓝
-#778899 LightSlateGray 亮蓝灰/亮石板灰
-#708090 SlateGray 灰石色/石板灰
-#1E90FF DodgerBlue 闪兰色/道奇蓝
-#F0F8FF AliceBlue 爱丽丝蓝
-#4682B4 SteelBlue 钢蓝/铁青
-#87CEFA LightSkyBlue 亮天蓝色
-#87CEEB SkyBlue 天蓝色
-#00BFFF DeepSkyBlue 深天蓝
-#ADD8E6 LightBlue 亮蓝
-#B0E0E6 PowderBlue 粉蓝色/火药青
-#5F9EA0 CadetBlue 军兰色/军服蓝
-#F0FFFF Azure 蔚蓝色
-#E0FFFF LightCyan 淡青色
-#AFEEEE PaleTurquoise 弱绿宝石
-#00FFFF Cyan 青色
-#00FFFF Aqua 浅绿色/水色
-#00CED1 DarkTurquoise 暗绿宝石
-#2F4F4F DarkSlateGray 暗瓦灰色/暗石板灰
-#008B8B DarkCyan 暗青色
-#008080 Teal 水鸭色
-#48D1CC MediumTurquoise 中绿宝石
-#20B2AA LightSeaGreen 浅海洋绿
-#40E0D0 Turquoise 绿宝石
-#7FFFD4 Aquamarine 宝石碧绿
-#66CDAA MediumAquamarine 中宝石碧绿
-#00FA9A MediumSpringGreen 中春绿色
-#F5FFFA MintCream 薄荷奶油
-#00FF7F SpringGreen 春绿色
-#3CB371 MediumSeaGreen 中海洋绿
-#2E8B57 SeaGreen 海洋绿
-#F0FFF0 Honeydew 蜜色/蜜瓜色
-#90EE90 LightGreen 淡绿色
-#98FB98 PaleGreen 弱绿色
-#8FBC8F DarkSeaGreen 暗海洋绿
-#32CD32 LimeGreen 闪光深绿
-#00FF00 Lime 闪光绿
-#228B22 ForestGreen 森林绿
-#008000 Green 纯绿
-#006400 DarkGreen 暗绿色
-#7FFF00 Chartreuse 黄绿色/查特酒绿
-#7CFC00 LawnGreen 草绿色/草坪绿
-#ADFF2F GreenYellow 绿黄色
-#556B2F DarkOliveGreen 暗橄榄绿
-#9ACD32 YellowGreen 黄绿色
-#6B8E23 OliveDrab 橄榄褐色
-#F5F5DC Beige 米色/灰棕色
-#FAFAD2 LightGoldenrodYellow 亮菊黄
-#FFFFF0 Ivory 象牙色
-#FFFFE0 LightYellow 浅黄色
-#FFFF00 Yellow 纯黄
-#808000 Olive 橄榄
-#BDB76B DarkKhaki 暗黄褐色/深卡叽布
-#FFFACD LemonChiffon 柠檬绸
-#EEE8AA PaleGoldenrod 灰菊黄/苍麒麟色
-#F0E68C Khaki 黄褐色/卡叽布
-#FFD700 Gold 金色
-#FFF8DC Cornsilk 玉米丝色
-#DAA520 Goldenrod 金菊黄
-#B8860B DarkGoldenrod 暗金菊黄
-#FFFAF0 FloralWhite 花的白色
-#FDF5E6 OldLace 老花色/旧蕾丝
-#F5DEB3 Wheat 浅黄色/小麦色
-#FFE4B5 Moccasin 鹿皮色/鹿皮靴
-#FFA500 Orange 橙色
-#FFEFD5 PapayaWhip 番木色/番木瓜
-#FFEBCD BlanchedAlmond 白杏色
-#FFDEAD NavajoWhite 纳瓦白/土著白
-#FAEBD7 AntiqueWhite 古董白
-#D2B48C Tan 茶色
-#DEB887 BurlyWood 硬木色
-#FFE4C4 Bisque 陶坯黄
-#FF8C00 DarkOrange 深橙色
-#FAF0E6 Linen 亚麻布
-#CD853F Peru 秘鲁色
-#FFDAB9 PeachPuff 桃肉色
-#F4A460 SandyBrown 沙棕色
-#D2691E Chocolate 巧克力色
-#8B4513 SaddleBrown 重褐色/马鞍棕色
-#FFF5EE Seashell 海贝壳
-#A0522D Sienna 黄土赭色
-#FFA07A LightSalmon 浅鲑鱼肉色
-#FF7F50 Coral 珊瑚
-#FF4500 OrangeRed 橙红色
-#E9967A DarkSalmon 深鲜肉/鲑鱼色
-#FF6347 Tomato 番茄红
-#FFE4E1 MistyRose 浅玫瑰色/薄雾玫瑰
-#FA8072 Salmon 鲜肉/鲑鱼色
-#FFFAFA Snow 雪白色
-#F08080 LightCoral 淡珊瑚色
-#BC8F8F RosyBrown 玫瑰棕色
-#CD5C5C IndianRed 印度红
-#FF0000 Red 纯红
-#A52A2A Brown 棕色
-#B22222 FireBrick 火砖色/耐火砖
-#8B0000 DarkRed 深红色
-#800000 Maroon 栗色
-#FFFFFF White 纯白
-#F5F5F5 WhiteSmoke 白烟
-#DCDCDC Gainsboro 淡灰色
-#D3D3D3 LightGrey 浅灰色
-#C0C0C0 Silver 银灰色
-#A9A9A9 DarkGray 深灰色
-#808080 Gray 灰色
-#696969 DimGray 暗淡灰
-#000000 Black 纯黑
-'''
 
 
 
