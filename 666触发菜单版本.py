@@ -377,7 +377,7 @@ def save():
 
 
 
-        try:
+        if 1:
             # for i in colorlist:
             #     aaa=text.tag_ranges(i)###=得到的aaa标里面每2个表示开头结尾索引.
             #     # print(aaa,i)
@@ -443,25 +443,71 @@ def save():
 
             #==================处理:
             # print(save_triple,999999999999999999999999999999999999999999999999)
-            from collections import defaultdict
-            outfor_rel=defaultdict(list)
-            for i in save_triple:
 
 
-                outfor_rel[i[1]].append([i[0],i[2],str(i[3]),str(i[4])])
-            for i in outfor_rel:
-                outfor_rel[i].append(yuanwen[i])
-            # print(outfor_rel,111111111111111111111111111111111111111111111111111111111111111111111)
-            outlist=['']*len(outfor_rel.keys())
-            sepp='  '
-            for i in sorted(outfor_rel.keys()):
-                for jj in range(len(outfor_rel[i])-1):
-                    outlist[i]+=sepp+sepp.join(outfor_rel[i][jj])
-                outlist[i]+='######'+outfor_rel[i][-1]
-                outlist[i]=outlist[i][len(sepp):]+'\n'
-            print(outlist,22222222222222222222222222222222222222222222)
-            with open('output.ner','w',encoding='utf-8') as f:
-                f.writelines(outlist)
+            #=============非锁紧版本
+            if 0:
+                from collections import defaultdict
+                outfor_rel=defaultdict(list)
+                for i in save_triple:
+
+
+                    outfor_rel[i[1]].append([i[0],i[2],str(i[3]),str(i[4])])
+                for i in outfor_rel:
+                    outfor_rel[i].append(yuanwen[i])
+                # print(outfor_rel,111111111111111111111111111111111111111111111111111111111111111111111)
+                outlist=['']*(max(outfor_rel.keys())+1)
+                sepp='  '
+                for i in sorted(outfor_rel.keys()):
+                    for jj in range(len(outfor_rel[i])-1):
+                        outlist[i]+=sepp+sepp.join(outfor_rel[i][jj])
+                    outlist[i]+='######'+outfor_rel[i][-1]
+                    outlist[i]=str(i)+sepp+outlist[i][len(sepp):]+'\n'
+                print(outlist,22222222222222222222222222222222222222222222)
+                with open('output.ner','w',encoding='utf-8') as f:
+                    f.writelines(outlist)
+
+            #============我感觉太乱,所以下面改成缩进版本.空格符用/了.
+            if 1:
+                from collections import defaultdict
+                outfor_rel = defaultdict(list)
+                for i in save_triple:
+                    outfor_rel[i[1]].append([i[0], i[2], str(i[3]), str(i[4])])
+                for i in outfor_rel:
+                    outfor_rel[i].append(yuanwen[i])
+                # print(outfor_rel,111111111111111111111111111111111111111111111111111111111111111111111)
+                outlist = [''] * (max(outfor_rel.keys()) + 1)
+                sepp = '    '
+                suojin='\\'
+                for i in sorted(outfor_rel.keys()):
+                    for jj in range(len(outfor_rel[i]) - 1):
+                        outlist[i] += sepp + suojin.join(outfor_rel[i][jj])
+                    outlist[i] += '######' + outfor_rel[i][-1]
+                    outlist[i] = str(i) + sepp + outlist[i][len(sepp):] + '\n'
+                print(outlist, 22222222222222222222222222222222222222222222)
+                with open('output.ner', 'w', encoding='utf-8') as f:
+                    f.writelines(outlist)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             # zhengchagn=1
 
 
@@ -473,8 +519,8 @@ def save():
 
 
 
-        except:
-            text666.set('output.bio写入失败')
+        # except:
+        #     text666.set('output.bio写入失败')
 
 
         if 1:
