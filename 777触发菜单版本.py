@@ -349,7 +349,7 @@ def fun4(i):
                 # print(a)
                 menubar.post(event.x_root, event.y_root)
             fffff=('宋体',10,'bold')
-            b=tkinter.Button(frame, bg=i,font=fffff,text ='标注为空', command = lambda x=i: helloCallBack(i))
+            b=tkinter.Button(frame, bg=i,font=fffff,text ='annotate to None', command = lambda x=i: helloCallBack(i))
             b.bind("<Button-3>", lambda event, a=3: pop(event, a))
             b.grid(row=0,column=1,padx=paddd)
 
@@ -703,7 +703,7 @@ def chognzhi():
 
 
 #=============第三版我们来实现读取bio文件的功能.为了方便就不加对话框了.直接读取output.bio
-b=tkinter.Button(frame, text ="读取bio文件和txt", command = chognzhi)
+b=tkinter.Button(frame, text ="load bio和txt", command = chognzhi)
 b.grid(row=0,column=0,padx=10)
 
 
@@ -745,8 +745,8 @@ aaa=tkinter.Label(frame,textvariable=text666, bg='yellow')
 aaa.grid(row=2,column=0,padx=10)
 
 
-text666.set("右边输入正则")
-b=tkinter.Button(frame, text ="保存文件为BIO和txt", command = save)
+text666.set("type regex to right")
+b=tkinter.Button(frame, text ="save to BIO和txt", command = save)
 b.grid(row=1,column=0,padx=10)
 
 

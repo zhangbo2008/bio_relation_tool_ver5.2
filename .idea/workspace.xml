@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c658a5-b92a-4f39-9868-d73fecc1f563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2test1e9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/777触发菜单版本.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyword2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keywords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keywords_explaning_3_method" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keywordstest1e9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kmp加速.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_sample_chinese.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tool_for_pipei.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/正则加速.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/生成一个100w的中文txt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/666触发菜单版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/666触发菜单版本.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/777触发菜单版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/777触发菜单版本.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.bio" beforeDir="false" afterPath="$PROJECT_DIR$/output.bio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.ner" beforeDir="false" afterPath="$PROJECT_DIR$/output.ner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +199,7 @@
       <workItem from="1675682264081" duration="21807000" />
       <workItem from="1675816490289" duration="119000" />
       <workItem from="1675836489490" duration="7689000" />
-      <workItem from="1675848641597" duration="12232000" />
+      <workItem from="1675848641597" duration="12704000" />
     </task>
     <servers />
   </component>
@@ -239,25 +223,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1675816609892" />
-    <state width="1237" height="164" key="GridCell.Tab.0.bottom" timestamp="1675865076145">
+    <state width="1237" height="164" key="GridCell.Tab.0.bottom" timestamp="1675865512701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1675865076145" />
+    <state width="1237" height="164" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1675865512701" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
-    <state width="1237" height="164" key="GridCell.Tab.0.center" timestamp="1675865076145">
+    <state width="1237" height="164" key="GridCell.Tab.0.center" timestamp="1675865512701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1675865076145" />
+    <state width="1237" height="164" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1675865512701" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
-    <state width="1237" height="164" key="GridCell.Tab.0.left" timestamp="1675865076145">
+    <state width="1237" height="164" key="GridCell.Tab.0.left" timestamp="1675865512701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1675865076145" />
+    <state width="1237" height="164" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1675865512701" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1675471191514" />
-    <state width="1237" height="164" key="GridCell.Tab.0.right" timestamp="1675865076145">
+    <state width="1237" height="164" key="GridCell.Tab.0.right" timestamp="1675865512701">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1675865076145" />
+    <state width="1237" height="164" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1675865512701" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
     <state width="1237" height="111" key="GridCell.Tab.1.bottom" timestamp="1675865000457">
       <screen x="0" y="0" width="1280" height="680" />
@@ -287,6 +271,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1675862222082" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1675865210021">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1675865210021" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1675324570524">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -325,11 +313,6 @@
           <line>6</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/777触发菜单版本.py</url>
-          <line>235</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -354,7 +337,7 @@
     <SUITE FILE_PATH="coverage/bio$3.coverage" NAME="3 Coverage Results" MODIFIED="1675257672271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$1.coverage" NAME="1 Coverage Results" MODIFIED="1675863925868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$32423.coverage" NAME="32423 Coverage Results" MODIFIED="1675688472839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/bio$777__1_.coverage" NAME="777触发菜单版本 (1) Coverage Results" MODIFIED="1675865000441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$777__1_.coverage" NAME="777触发菜单版本 (1) Coverage Results" MODIFIED="1675865512691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$342342342.coverage" NAME="342342342 Coverage Results" MODIFIED="1675648939187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
