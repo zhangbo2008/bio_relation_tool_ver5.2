@@ -41,7 +41,7 @@ http://c.biancheng.net/tkinter/text-widget.html
 #=========常用正则匹配:
 #最小匹配法律:《.*?法》
 #最大匹配法律:《.*法》
-
+#匹配月份:  re.findall(r"-(\d+)-",'2015-8-7')    # 8
 
 
 
