@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c658a5-b92a-4f39-9868-d73fecc1f563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/888触发菜单版本.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/990.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aaaaaaaaa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/行号模板2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/888.py" beforeDir="false" afterPath="$PROJECT_DIR$/行号模板.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/888触发菜单版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/888触发菜单版本.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.bio" beforeDir="false" afterPath="$PROJECT_DIR$/output.bio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.ner" beforeDir="false" afterPath="$PROJECT_DIR$/output.ner" afterDir="false" />
@@ -208,7 +204,7 @@
       <workItem from="1675836489490" duration="7689000" />
       <workItem from="1675848641597" duration="14781000" />
       <workItem from="1675868045948" duration="1676000" />
-      <workItem from="1675902497919" duration="9931000" />
+      <workItem from="1675902497919" duration="11905000" />
     </task>
     <servers />
   </component>
@@ -236,45 +232,45 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1675816609892" />
-    <state width="1237" height="145" key="GridCell.Tab.0.bottom" timestamp="1675922329629">
+    <state width="1237" height="187" key="GridCell.Tab.0.bottom" timestamp="1675923833699">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1675922329629" />
+    <state width="1237" height="187" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1675923833699" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
-    <state width="1237" height="145" key="GridCell.Tab.0.center" timestamp="1675922329629">
+    <state width="1237" height="187" key="GridCell.Tab.0.center" timestamp="1675923833699">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1675922329629" />
+    <state width="1237" height="187" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1675923833699" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
-    <state width="1237" height="145" key="GridCell.Tab.0.left" timestamp="1675922329629">
+    <state width="1237" height="187" key="GridCell.Tab.0.left" timestamp="1675923833699">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1675922329629" />
+    <state width="1237" height="187" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1675923833699" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1675471191514" />
-    <state width="1237" height="145" key="GridCell.Tab.0.right" timestamp="1675922329629">
+    <state width="1237" height="187" key="GridCell.Tab.0.right" timestamp="1675923833699">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="145" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1675922329629" />
+    <state width="1237" height="187" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1675923833699" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
-    <state width="1237" height="111" key="GridCell.Tab.1.bottom" timestamp="1675921918930">
+    <state width="1237" height="187" key="GridCell.Tab.1.bottom" timestamp="1675923844544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="111" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1675921918930" />
+    <state width="1237" height="187" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1675923844544" />
     <state width="1237" height="163" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1675471191531" />
-    <state width="1237" height="111" key="GridCell.Tab.1.center" timestamp="1675921918930">
+    <state width="1237" height="187" key="GridCell.Tab.1.center" timestamp="1675923844544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="111" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1675921918930" />
+    <state width="1237" height="187" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1675923844544" />
     <state width="1237" height="163" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1675471191531" />
-    <state width="1237" height="111" key="GridCell.Tab.1.left" timestamp="1675921918930">
+    <state width="1237" height="187" key="GridCell.Tab.1.left" timestamp="1675923844544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="111" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1675921918930" />
+    <state width="1237" height="187" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1675923844544" />
     <state width="1237" height="163" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1675471191531" />
-    <state width="1237" height="111" key="GridCell.Tab.1.right" timestamp="1675921918930">
+    <state width="1237" height="187" key="GridCell.Tab.1.right" timestamp="1675923844544">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="111" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1675921918930" />
+    <state width="1237" height="187" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1675923844544" />
     <state width="1237" height="163" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1675471191531" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1675860697870">
       <screen x="0" y="0" width="1280" height="680" />
@@ -331,6 +327,11 @@
           <line>2</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/888触发菜单版本.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -351,7 +352,7 @@
     <SUITE FILE_PATH="coverage/bio$777.coverage" NAME="777 Coverage Results" MODIFIED="1675321848265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$2.coverage" NAME="行号模板2 Coverage Results" MODIFIED="1675916791496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$kmp.coverage" NAME="kmp加速 Coverage Results" MODIFIED="1675862199234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/bio$888.coverage" NAME="888触发菜单版本 Coverage Results" MODIFIED="1675922329621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$888.coverage" NAME="888触发菜单版本 Coverage Results" MODIFIED="1675923833565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$666__1_.coverage" NAME="666触发菜单版本 (1) Coverage Results" MODIFIED="1675860014430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$666.coverage" NAME="666触发菜单版本 Coverage Results" MODIFIED="1675421036001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$990.coverage" NAME="990 Coverage Results" MODIFIED="1675921862604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -82,6 +82,7 @@ class TextLineNumbers(tk.Canvas):
         self.textwidget = text_widget
 
     def redraw(self, *args):
+
         '''redraw line numbers'''
         self.delete("all")
 
@@ -137,16 +138,17 @@ class CustomText(tk.Text):
 class Example(tk.Frame):#=-==============最终我们把text类包装成了ecample这个类.
     def __init__(self, *args, **kwargs):
         tk.Frame.__init__(self, *args, **kwargs)
-        self.text = CustomText(self, width=999,height=20,font=fon1,wrap = 'word',background='#C7EDCC')
+        self.text = CustomText(self, width=999,height=20,font=fon1,wrap = 'char',background='#C7EDCC')
         self.vsb = tk.Scrollbar(self, orient="vertical", command=self.text.yview)#竖直方向的滑动杆.
         self.vsb.pack(side="right", fill="y")
         self.text.configure(yscrollcommand=self.vsb.set)
 
         self.linenumbers = TextLineNumbers(self, width=50)#创建行号工具#最好让这个宽度跟整个页面长度配套.
         self.linenumbers.attach(self.text) # 绑定行号工具到text空间.
-
-
         self.linenumbers.pack(side="left", fill="y")
+
+
+
         self.text.pack(side="right", fill="both", expand=True)
 
         self.text.bind("<<Change>>", self._on_change)#绑定修改到重新绘制linenumber
@@ -157,6 +159,11 @@ class Example(tk.Frame):#=-==============最终我们把text类包装成了ecamp
 
     def _on_change(self, event):
         self.linenumbers.redraw()
+    def changgelinenum(self):
+        print(111111)
+        self.linenumbers=TextLineNumbers(self, width=150)
+        self.linenumbers.attach(self.text)  # 绑定行号工具到text空间.
+        self.linenumbers.pack(side="left", fill="y")
 
 
 #==========================================================自定义编号结束.
@@ -167,6 +174,12 @@ class Example(tk.Frame):#=-==============最终我们把text类包装成了ecamp
 # Example(root).pack(side="top", fill="both", expand=True)
 
 aaa2=Example(root)
+
+#=======reset 行号widget
+if 0:
+    aaa2.changgelinenum()#=====================这种动态生成无效???????????????????????当行号上W会发生看不见的情况.目前无法解决.
+
+
 aaa2.pack(side="top", fill="both", expand=True)
 text = aaa2.text#=======添加了护眼色.
 text.insert('1.0', '贴入你要处理的sdfsadf张某,李某,sdfsdfasfasd王某他们杀人了fas]\n sdfsadf张某,李某,sdfsdfasfasd王某他们杀人了文字 中文 English 都行\n贴入你要处理的文字')# 1.0 第一行0列.
