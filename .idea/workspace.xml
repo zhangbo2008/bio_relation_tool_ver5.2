@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c658a5-b92a-4f39-9868-d73fecc1f563" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.bio" beforeDir="false" afterPath="$PROJECT_DIR$/output.bio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.ner" beforeDir="false" afterPath="$PROJECT_DIR$/output.ner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
       <recent name="D:\做一个bio标注工具" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.行号模板3解决wordwrap问题">
+  <component name="RunManager" selected="Python.888触发菜单版本">
     <configuration name="行号模板" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="做一个bio标注工具" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,8 +168,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.行号模板3解决wordwrap问题" />
         <item itemvalue="Python.888触发菜单版本" />
+        <item itemvalue="Python.行号模板3解决wordwrap问题" />
         <item itemvalue="Python.990" />
         <item itemvalue="Python.行号模板2" />
         <item itemvalue="Python.行号模板" />
@@ -202,7 +204,7 @@
       <workItem from="1675868045948" duration="1676000" />
       <workItem from="1675902497919" duration="12377000" />
       <workItem from="1676422956814" duration="189000" />
-      <workItem from="1676423168321" duration="8098000" />
+      <workItem from="1676423168321" duration="8359000" />
     </task>
     <servers />
   </component>
@@ -230,25 +232,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1675816609892" />
-    <state width="1237" height="108" key="GridCell.Tab.0.bottom" timestamp="1676431803437">
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom" timestamp="1676431906834">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="108" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1676431803437" />
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1676431906834" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
-    <state width="1237" height="108" key="GridCell.Tab.0.center" timestamp="1676431803437">
+    <state width="1237" height="108" key="GridCell.Tab.0.center" timestamp="1676431906834">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="108" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1676431803437" />
+    <state width="1237" height="108" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1676431906834" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
-    <state width="1237" height="108" key="GridCell.Tab.0.left" timestamp="1676431803436">
+    <state width="1237" height="108" key="GridCell.Tab.0.left" timestamp="1676431906834">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="108" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1676431803436" />
+    <state width="1237" height="108" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1676431906834" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1675471191514" />
-    <state width="1237" height="108" key="GridCell.Tab.0.right" timestamp="1676431803437">
+    <state width="1237" height="108" key="GridCell.Tab.0.right" timestamp="1676431906834">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="108" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1676431803437" />
+    <state width="1237" height="108" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1676431906834" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
     <state width="1237" height="157" key="GridCell.Tab.1.bottom" timestamp="1676430872400">
       <screen x="0" y="0" width="1280" height="680" />
@@ -340,7 +342,7 @@
     <SUITE FILE_PATH="coverage/bio$777.coverage" NAME="777 Coverage Results" MODIFIED="1675321848265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$2.coverage" NAME="行号模板2 Coverage Results" MODIFIED="1675916791496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$kmp.coverage" NAME="kmp加速 Coverage Results" MODIFIED="1675862199234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/bio$888.coverage" NAME="888触发菜单版本 Coverage Results" MODIFIED="1676430982366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bio$888.coverage" NAME="888触发菜单版本 Coverage Results" MODIFIED="1676431906821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$666__1_.coverage" NAME="666触发菜单版本 (1) Coverage Results" MODIFIED="1675860014430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$3wordwrap.coverage" NAME="行号模板3解决wordwrap问题 Coverage Results" MODIFIED="1676431703135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bio$666.coverage" NAME="666触发菜单版本 Coverage Results" MODIFIED="1675421036001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
