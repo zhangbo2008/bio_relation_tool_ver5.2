@@ -8,6 +8,7 @@ Run the newest version just python 888触发菜单版本.py
 
 
 
+ps: toolkit: best version of textwidget with linenumber in 行号模板3解决wordwrap问题.py
 
 #================加了行标的版本是888触发菜单版本.py. 加了行标.但是wordwrap时候滑动滚轮有行号bug,还不会改.
 
