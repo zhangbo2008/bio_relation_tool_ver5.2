@@ -665,6 +665,7 @@ def save():
                     outfor_rel[i[1]].append([i[0], i[2], str(i[3]), str(i[4])])
                 for i in outfor_rel:
                     outfor_rel[i].append(yuanwen[i])
+                outlist=[]
                 if outfor_rel:
                     outlist = [''] * (max(outfor_rel.keys()) + 1)
                     sepp = '    '
