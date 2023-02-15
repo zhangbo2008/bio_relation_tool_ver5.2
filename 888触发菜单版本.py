@@ -85,15 +85,20 @@ class TextLineNumbers(tk.Canvas):
 
         '''redraw line numbers'''
         self.delete("all")
-
-        i = self.textwidget.index("@0,0")#找到0行0列的信息.
+#====================self.textwidget.index("@0,0") @0,0表示最接近左上角的行信息.
+        i = self.textwidget.index("@0,0")#找到0行0列的信息. ref: 参考文档:    https://tkdocs.com/shipman/text-index.html
+        hang,lie=i.split('.')
         while True:
             dline = self.textwidget.dlineinfo(i)
+            hang,lie=i.split('.')#计算上面i行的信息.    self.textwidget.get(i)
+            debug222=self.textwidget.get(i) #这里面显示滚动之后的左上角第一个字.#这时候我们读入的是1.4
             if dline is None: break # Return tuple (x,y,width,height,baseline) giving the bounding box        and baseline position of the visible part of the line containing        the character at INDEX.
-            y = dline[1]
-            linenum = str(i).split(".")[0] #行信息
-            self.create_text(1, y, anchor="nw", text="{0:>4}".format(linenum),font=fon1) #创建行号. 2是x索引.
-            i = self.textwidget.index("%s+1line" % i) #然后计算下一行.
+            if lie=='0':#===首列才画行号.
+                y = dline[1]
+                linenum = str(i).split(".")[0] #行信息
+                self.create_text(1, y, anchor="nw", text="{0:>4}".format(linenum),font=fon1) #创建行号. 2是x索引.
+            # i = self.textwidget.index("%s+1line" % i) #然后计算下一行.
+            i = self.textwidget.index(str(int(hang)+1)+'.'+'0') #然后计算下一行.
 
 
 
@@ -125,7 +130,7 @@ class CustomText(tk.Text):
                 args[0:2] == ("xview", "scroll") or
                 args[0:2] == ("yview", "moveto") or
                 args[0:2] == ("yview", "scroll")
-            ):
+            ):  # //tkinter event_generate手册:http://tcl.tk/man/tcl8.5/TkCmd/event.htm#M34
                 self.event_generate("<<Change>>", when="tail")#触发change信号.
         except:
             pass
@@ -138,7 +143,7 @@ class CustomText(tk.Text):
 class Example(tk.Frame):#=-==============最终我们把text类包装成了ecample这个类.
     def __init__(self, *args, **kwargs):
         tk.Frame.__init__(self, *args, **kwargs)
-        self.text = CustomText(self, width=999,height=20,font=fon1,wrap = 'char',background='#C7EDCC')
+        self.text = CustomText(self, width=30,height=20,font=fon1,wrap = 'char',background='#C7EDCC')
         self.vsb = tk.Scrollbar(self, orient="vertical", command=self.text.yview)#竖直方向的滑动杆.
         self.vsb.pack(side="right", fill="y")
         self.text.configure(yscrollcommand=self.vsb.set)
@@ -182,7 +187,7 @@ if 0:
 
 aaa2.pack(side="top", fill="both", expand=True)
 text = aaa2.text#=======添加了护眼色.
-text.insert('1.0', '贴入你要处理的sdfsadf张某,李某,sdfsdfasfasd王某他们杀人了fas]\n sdfsadf张某,李某,sdfsdfasfasd王某他们杀人了文字 中文 English 都行\n贴入你要处理的文字')# 1.0 第一行0列.
+# text.insert('1.0', '贴入你要处理的sdfsadf张某,李某,sdfsdfasfasd王某他们杀人了fas]\n sdfsadf张某,李某,sdfsdfasfasd王某他们杀人了文字 中文 English 都行\n贴入你要处理的文字')# 1.0 第一行0列.
 
 colorlist=[i[0] for i in color_and_biaoqian]
 labellist=[i[1] for i in color_and_biaoqian]
@@ -828,7 +833,6 @@ def chognzhi():
 
 
 
-
 #=============第三版我们来实现读取bio文件的功能.为了方便就不加对话框了.直接读取output.bio
 b=tkinter.Button(frame, text ="load bio和txt", command = chognzhi)
 b.grid(row=0,column=0,padx=10)
@@ -1153,7 +1157,8 @@ if 1:
 
 
 
-
+#===============================2023-02-15,10点59现在我们改成工具启动就开始重置读取bio和txt
+chognzhi()
 
 root.mainloop()
 
