@@ -95,7 +95,7 @@ class TextLineNumbers(tk.Canvas):
             if dline is None: break # Return tuple (x,y,width,height,baseline) giving the bounding box        and baseline position of the visible part of the line containing        the character at INDEX.
             if lie=='0':#===首列才画行号.
                 y = dline[1]
-                linenum = str(i).split(".")[0] #行信息
+                linenum = hang #行信息
                 self.create_text(1, y, anchor="nw", text="{0:>4}".format(linenum),font=fon1) #创建行号. 2是x索引.
             # i = self.textwidget.index("%s+1line" % i) #然后计算下一行.
             i = self.textwidget.index(str(int(hang)+1)+'.'+'0') #然后计算下一行.
