@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c658a5-b92a-4f39-9868-d73fecc1f563" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/888触发菜单版本.py" beforeDir="false" afterPath="$PROJECT_DIR$/888触发菜单版本.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.bio" beforeDir="false" afterPath="$PROJECT_DIR$/output.bio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +202,7 @@
       <workItem from="1675868045948" duration="1676000" />
       <workItem from="1675902497919" duration="12377000" />
       <workItem from="1676422956814" duration="189000" />
-      <workItem from="1676423168321" duration="6973000" />
+      <workItem from="1676423168321" duration="7315000" />
     </task>
     <servers />
   </component>
@@ -232,25 +230,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1675816609892" />
-    <state width="1237" height="108" key="GridCell.Tab.0.bottom" timestamp="1676430982375">
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom" timestamp="1676430995405">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="108" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1676430982375" />
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1676430995405" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
-    <state width="1237" height="108" key="GridCell.Tab.0.center" timestamp="1676430982375">
+    <state width="1237" height="108" key="GridCell.Tab.0.center" timestamp="1676430995404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="108" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1676430982375" />
+    <state width="1237" height="108" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1676430995404" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
-    <state width="1237" height="108" key="GridCell.Tab.0.left" timestamp="1676430982375">
+    <state width="1237" height="108" key="GridCell.Tab.0.left" timestamp="1676430995404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="108" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1676430982375" />
+    <state width="1237" height="108" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1676430995404" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1675471191514" />
-    <state width="1237" height="108" key="GridCell.Tab.0.right" timestamp="1676430982375">
+    <state width="1237" height="108" key="GridCell.Tab.0.right" timestamp="1676430995404">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="108" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1676430982375" />
+    <state width="1237" height="108" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1676430995404" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1675471191515" />
     <state width="1237" height="157" key="GridCell.Tab.1.bottom" timestamp="1676430872400">
       <screen x="0" y="0" width="1280" height="680" />
@@ -321,11 +319,6 @@
           <url>file://$PROJECT_DIR$/kmp加速.py</url>
           <line>6</line>
           <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/888触发菜单版本.py</url>
-          <line>99</line>
-          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
